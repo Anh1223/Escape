@@ -1,0 +1,54 @@
+.start{
+    align-items: center;
+    display: flexs;
+    justify-content: center;
+}
+
+.flex-container-500px {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+.flex-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.bg-red{
+    color: red;
+}
+.bg-black{
+    background-color: black;
+}
+.flex-container-400px {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+/*mầu sắc Link khi chưa truy cập*/
+a:link { 
+color: red;
+text-decoration:none;
+}
+
+/*Mầu Sắc Link Khi đã Truy Cập*/
+a:visited {
+color:red;
+text-decoration:none;
+}
+
+/*Mầu sắc Link khi rê chuột vào*/
+a:hover {
+color:red;
+text-decoration:underline;
+}
+.flex-container-200px{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
